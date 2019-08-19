@@ -1,0 +1,52 @@
+body {
+    background: lightgrey;
+}
+
+.container {
+    display: flex;
+}
+
+#box2 {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#box3 {
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+#box4 {
+    background: blue;
+    justify-content: center;
+}
+
+#box4H1 {
+    color: white;
+}
+
+#box5 {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#surveyBtn {
+    background: blue;
+    color: white;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#box6 {
+    display: flex;
+    justify-content: center;
+}
+
+#box7 {
+    flex-direction: column;
+    flex-grow: 1;
+}
